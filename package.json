@@ -1,0 +1,22 @@
+{
+  "name": "did-multisig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOpenMeta/DID-Multisig.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheOpenMeta/DID-Multisig/issues"
+  },
+  "homepage": "https://github.com/TheOpenMeta/DID-Multisig#readme",
+  "dependencies": {
+    "@gnosis.pm/safe-core-sdk": "^1.2.0",
+    "ethers": "^5.6.4",
+    "web3": "^1.7.3"
+  }
+}
