@@ -7,7 +7,7 @@ const {
 const nodeConfig = require('./node.json');
 // 多签合约地址
 const SAFE_ADDRESS = '0x71bBAAa468c0044Ddc3191cfC9B6f76143C3fF85';
-const NFT_CONTRACT_ADDRESS = '0x0C288e3934E257CE2a637E878B8814625a0e2EE8';
+const NFT_CONTRACT_ADDRESS = '0x9572A2034d98Fd0c42706a5B588Ccb5bB8EB2C32';
 const RPC_URL = '';
 const ABI_JSON = require('./did-abi.json');
 
@@ -45,7 +45,7 @@ async function main () {
   // 构建交易
   const web3 = new Web3();
   const did = new web3.eth.Contract(ABI_JSON);
-  const data = did.methods.mint('0xETH_Address', 'xxx.bit').encodeABI();
+  const data = did.methods.mint('0xETH_Address', 'uuid', 'expireAt').encodeABI();
   const transactions = [{
     to: NFT_CONTRACT_ADDRESS,
     value: '0',
