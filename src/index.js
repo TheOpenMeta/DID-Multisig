@@ -7,7 +7,7 @@ const {
 const nodeConfig = require('./node.json');
 // 多签合约地址
 const SAFE_ADDRESS = '0x71bBAAa468c0044Ddc3191cfC9B6f76143C3fF85';
-const NFT_CONTRACT_ADDRESS = '0x9572A2034d98Fd0c42706a5B588Ccb5bB8EB2C32';
+const NFT_CONTRACT_ADDRESS = '0x3989B397D93dbd6B2696a883Dd1F5Ee935327E37';
 const RPC_URL = '';
 const ABI_JSON = require('./did-abi.json');
 
